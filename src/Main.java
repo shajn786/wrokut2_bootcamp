@@ -2,11 +2,12 @@ import java.util.Scanner;
 
 public class Main {
 
+    static int num1,num2,num3,result;
     static int opt;
     static Scanner sc = new Scanner(System.in);
     static void largest()
     {
-        int num1,num2,num3,result;
+
         System.out.println("enter the three numbers");
         num1=sc.nextInt();
         num2=sc.nextInt();
@@ -18,7 +19,7 @@ public class Main {
 
     static void smallest()
     {
-        int num1,num2,num3,result;
+
         System.out.println("enter the three numbers");
         num1=sc.nextInt();
         num2=sc.nextInt();
