@@ -49,12 +49,26 @@ public class Main {
             System.out.println("not prime");
 
     }
+
+    static void Evenornot()
+    {
+        int num;
+        System.out.println("enter the number");
+        num =sc.nextInt();
+        if(num%2==0)
+            System.out.println("Number is even");
+        else
+            System.out.println("Number is not even");
+
+
+    }
     public static void main(String[] args) {
 
         System.out.println("enter the operation\n" +
                 "1 : Largest of three\n" +
                 "2 : Smallest of three Numbers\n" +
-                "3 : Prime of a number");
+                "3 : Prime of a number\n" +
+                "4 : Even or Not");
         opt =sc.nextInt();
 
         switch(opt)
@@ -67,6 +81,9 @@ public class Main {
 
             case 3:
                 prime();
+
+            case 4:
+                Evenornot();
         }
 
     }
